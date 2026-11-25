@@ -1,0 +1,303 @@
+<!doctype html>
+<!--
+  Hotel Santa Maria · Bacabal – MA · versão 2 (Claude), no Padrão Hotéis MA.
+  VERSÃO DE APRESENTAÇÃO para o dono do hotel.
+
+  Fotos: tiradas do Instagram oficial do hotel (fachada e panfleto) e do Tripadvisor (salão, quartos, banheiro).
+  Antes de publicar de verdade: pedir ao hotel fotos próprias em boa resolução e autorização de uso.
+  As fotos dos quartos duplo e triplo e do Espaço VIP vêm do panfleto e estão em baixa resolução.
+
+  Dados confirmados no Instagram/panfleto do hotel: endereço, telefone (99) 3621-1076,
+  WhatsApp (99) 98128-9074, estacionamento, café da manhã, elevador, Espaço VIP, academia, Wi-Fi,
+  quartos duplos, casal e triplos.
+  PENDENTE confirmar: horários de check-in e check-out, preços, formas de pagamento,
+  e como funciona o desconto da academia.
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotel Santa Maria | Bacabal – MA</title>
+  <meta name="description" content="Hotel no Centro de Bacabal (MA), na Rua Magalhães de Almeida. Café da manhã, estacionamento, elevador e academia. Reserve pelo WhatsApp." />
+  <meta name="theme-color" content="#4b1b25" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hotel Santa Maria · Bacabal – MA" />
+  <meta property="og:description" content="No Centro de Bacabal, com café da manhã, estacionamento e academia. Reserve direto pelo WhatsApp." />
+  <meta property="og:image" content="fotos/santa-maria/compartilhar.webp" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%237a2d3c'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='700' font-size='24' fill='white' text-anchor='middle'%3ESM%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="padrao/padrao-hoteis-ma.css" />
+  <!-- Cor do hotel: combinação "Vinho" do padrão, tirada do logo -->
+  <style>:root{--marca:#7a2d3c;--marca-escura:#4b1b25;--marca-clara:#f3e6e9}</style>
+  <link rel="preload" as="image" href="fotos/santa-maria/topo-salao.webp" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Hotel Santa Maria",
+    "image": ["fotos/santa-maria/fachada.webp", "fotos/santa-maria/topo-salao.webp"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Magalhães de Almeida, 319",
+      "addressLocality": "Bacabal",
+      "addressRegion": "MA",
+      "postalCode": "65700-000",
+      "addressCountry": "BR"
+    },
+    "telephone": "+55 99 3621-1076",
+    "sameAs": ["https://www.instagram.com/hotelsantamariabacabal/", "https://www.facebook.com/hotelsantamariabacabal/"],
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Café da manhã", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Estacionamento", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Elevador", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Academia", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Ar-condicionado", "value": true}
+    ]
+  }
+  </script>
+</head>
+<body class="hm">
+  <a class="hm-pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Ícones (traço 1.8, 24×24) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3.5 20.5l1.3-4A8.5 8.5 0 1 1 8 19.6z"/><path d="M9 9.5c.3 2 2.2 4 4.5 4.6"/></symbol>
+    <symbol id="i-telefone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-cafe" viewBox="0 0 24 24"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17M8 3v3M12 3v3"/></symbol>
+    <symbol id="i-estacionamento" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M10 17V7h3a3 3 0 0 1 0 6h-3"/></symbol>
+    <symbol id="i-elevador" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M12 3v18M7 11l1.5-2 1.5 2M14 13l1.5 2 1.5-2"/></symbol>
+    <symbol id="i-academia" viewBox="0 0 24 24"><path d="M6 7v10M18 7v10M3 10v4M21 10v4M6 12h12"/></symbol>
+    <symbol id="i-vip" viewBox="0 0 24 24"><path d="M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3"/><path d="M3 13a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v4H3z"/><path d="M5 17v2M19 17v2"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r=".8"/></symbol>
+    <symbol id="i-ar" viewBox="0 0 24 24"><path d="M12 2v20M3.3 7l17.4 10M20.7 7 3.3 17M9.5 3.5 12 6l2.5-2.5M9.5 20.5 12 18l2.5 2.5"/></symbol>
+    <symbol id="i-frigobar" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M6 10h12M9 5v2M9 13v3"/></symbol>
+    <symbol id="i-pessoa" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-pino" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  </svg>
+
+  <!-- 1. Cabeçalho -->
+  <header class="hm-cabecalho">
+    <div class="hm-wrap hm-cabecalho__linha">
+      <a class="hm-marca" href="#inicio">
+        <span class="hm-monograma" aria-hidden="true">SM</span>
+        <span>Hotel Santa Maria<small>BACABAL · MA</small></span>
+      </a>
+      <nav class="hm-menu" aria-label="Seções">
+        <a href="#quartos">Quartos</a>
+        <a href="#comodidades">Estrutura</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener">
+        <svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <div class="hm-wrap">
+      <!-- 2. Topo -->
+      <section class="hm-topo" id="inicio" aria-labelledby="titulo-topo">
+        <div class="hm-topo__foto">
+          <img src="fotos/santa-maria/topo-salao.webp" alt="Salão do café da manhã do Hotel Santa Maria" fetchpriority="high">
+        </div>
+        <div class="hm-topo__conteudo">
+          <p class="hm-rotulo">Centro · Bacabal – MA</p>
+          <h1 id="titulo-topo">Hotel no Centro de Bacabal, com café da manhã</h1>
+          <p>Quartos com ar-condicionado, estacionamento, elevador e academia na Rua Magalhães de Almeida.</p>
+          <div class="hm-acoes">
+            <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener">
+              <svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Reservar pelo WhatsApp
+            </a>
+            <a class="hm-btn hm-btn--claro" href="tel:+559936211076">
+              <svg class="hm-icone" aria-hidden="true"><use href="#i-telefone"/></svg>(99) 3621-1076
+            </a>
+          </div>
+          <p class="hm-garantia">Reserva direta com o hotel, sem intermediário.</p>
+        </div>
+      </section>
+
+      <!-- 3. Fatos rápidos -->
+      <div class="hm-fatos" role="list">
+        <div class="hm-fato" role="listitem"><span class="hm-rotulo">Bairro</span><strong class="hm-fato__texto">Centro</strong></div>
+        <div class="hm-fato" role="listitem"><span class="hm-rotulo">Incluso</span><strong class="hm-fato__texto">Café da manhã</strong></div>
+        <div class="hm-fato" role="listitem"><span class="hm-rotulo">Estacionamento</span><strong class="hm-fato__texto">No hotel</strong></div>
+        <div class="hm-fato" role="listitem"><span class="hm-rotulo">WhatsApp</span><strong class="hm-fato__texto"><a href="https://wa.me/5599981289074" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." target="_blank" rel="noopener">(99) 98128-9074</a></strong></div>
+      </div>
+
+      <!-- Consulta pelo WhatsApp -->
+      <form class="hm-consulta" id="consulta">
+        <p class="hm-consulta__titulo">Consultar disponibilidade</p>
+        <div class="hm-campo-grupo"><label for="entrada">Entrada</label><input class="hm-campo" type="date" id="entrada" name="entrada" required></div>
+        <div class="hm-campo-grupo"><label for="saida">Saída</label><input class="hm-campo" type="date" id="saida" name="saida" required></div>
+        <div class="hm-campo-grupo"><label for="quarto">Quarto</label>
+          <select class="hm-campo" id="quarto" name="quarto"><option>Quarto casal</option><option>Quarto duplo</option><option>Quarto triplo</option><option>Ainda não sei</option></select>
+        </div>
+        <button class="hm-btn hm-btn--whatsapp" type="submit"><svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Consultar no WhatsApp</button>
+        <p class="hm-consulta__nota hm-pequeno">Abre o WhatsApp com a mensagem pronta. O hotel responde com o valor e a disponibilidade.</p>
+      </form>
+    </div>
+
+    <!-- 4. Quartos -->
+    <section class="hm-secao" id="quartos" aria-labelledby="titulo-quartos">
+      <div class="hm-wrap">
+        <div class="hm-secao__cabeca">
+          <p class="hm-rotulo">Hospedagem</p>
+          <h2 class="hm-titulo-secao" id="titulo-quartos">Nossos quartos</h2>
+          <p>Todos com ar-condicionado, frigobar, TV e banheiro privativo.</p>
+        </div>
+        <div class="hm-grade">
+          <article class="hm-quarto">
+            <div class="hm-foto"><img src="fotos/santa-maria/quarto-casal.webp" alt="Quarto casal com cama de casal e piso claro" loading="lazy"></div>
+            <div class="hm-quarto__corpo">
+              <h3>Quarto casal</h3>
+              <span class="hm-capacidade"><svg class="hm-icone" aria-hidden="true"><use href="#i-pessoa"/></svg>2 pessoas · cama de casal</span>
+              <ul class="hm-etiquetas"><li>Ar-condicionado</li><li>Frigobar</li><li>TV</li></ul>
+              <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar o Quarto casal no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener"><svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Consultar este quarto</a>
+            </div>
+          </article>
+          <article class="hm-quarto">
+            <div class="hm-foto"><img src="fotos/santa-maria/quarto-duplo.webp" alt="Quarto duplo com duas camas de solteiro" loading="lazy"></div>
+            <div class="hm-quarto__corpo">
+              <h3>Quarto duplo</h3>
+              <span class="hm-capacidade"><svg class="hm-icone" aria-hidden="true"><use href="#i-pessoa"/></svg>2 pessoas · duas camas de solteiro</span>
+              <ul class="hm-etiquetas"><li>Ar-condicionado</li><li>Frigobar</li><li>TV</li></ul>
+              <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar o Quarto duplo no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener"><svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Consultar este quarto</a>
+            </div>
+          </article>
+          <article class="hm-quarto">
+            <div class="hm-foto"><img src="fotos/santa-maria/quarto-triplo.webp" alt="Quarto triplo com três camas de solteiro" loading="lazy"></div>
+            <div class="hm-quarto__corpo">
+              <h3>Quarto triplo</h3>
+              <span class="hm-capacidade"><svg class="hm-icone" aria-hidden="true"><use href="#i-pessoa"/></svg>3 pessoas · três camas de solteiro</span>
+              <ul class="hm-etiquetas"><li>Ar-condicionado</li><li>Frigobar</li><li>TV</li></ul>
+              <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar o Quarto triplo no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener"><svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Consultar este quarto</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Comodidades -->
+    <section class="hm-secao hm-secao--superficie" id="comodidades" aria-labelledby="titulo-comodidades">
+      <div class="hm-wrap">
+        <div class="hm-secao__cabeca">
+          <p class="hm-rotulo">Estrutura</p>
+          <h2 class="hm-titulo-secao" id="titulo-comodidades">O que você encontra</h2>
+        </div>
+        <ul class="hm-comodidades">
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-cafe"/></svg></span>Café da manhã</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-estacionamento"/></svg></span>Estacionamento</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-elevador"/></svg></span>Elevador</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-academia"/></svg></span>Academia</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-vip"/></svg></span>Espaço VIP</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-wifi"/></svg></span>Wi-Fi</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-ar"/></svg></span>Ar-condicionado</li>
+          <li class="hm-comodidade"><span class="hm-icone-caixa"><svg class="hm-icone" aria-hidden="true"><use href="#i-frigobar"/></svg></span>Frigobar</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Fotos -->
+    <section class="hm-secao" id="fotos" aria-labelledby="titulo-fotos">
+      <div class="hm-wrap">
+        <div class="hm-secao__cabeca">
+          <p class="hm-rotulo">Fotos</p>
+          <h2 class="hm-titulo-secao" id="titulo-fotos">Conheça o hotel</h2>
+        </div>
+        <div class="hm-galeria">
+          <figure><div class="hm-foto"><img src="fotos/santa-maria/fachada.webp" alt="Fachada do Hotel Santa Maria, prédio de quatro andares em vermelho e branco" loading="lazy"></div><figcaption>Fachada</figcaption></figure>
+          <figure><div class="hm-foto"><img src="fotos/santa-maria/espaco-vip.webp" alt="Espaço VIP com mesas e cadeiras" loading="lazy"></div><figcaption>Espaço VIP</figcaption></figure>
+          <figure><div class="hm-foto"><img src="fotos/santa-maria/cafe-da-manha.webp" alt="Mesa do café da manhã" loading="lazy"></div><figcaption>Café da manhã</figcaption></figure>
+          <figure><div class="hm-foto"><img src="fotos/santa-maria/quarto-casal-2.webp" alt="Quarto casal com frigobar e escrivaninha" loading="lazy"></div><figcaption>Quarto casal</figcaption></figure>
+          <figure><div class="hm-foto"><img src="fotos/santa-maria/banheiro.webp" alt="Banheiro privativo com box de vidro" loading="lazy"></div><figcaption>Banheiro</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Avaliações: entra só com nota ≥ 8,0 (Booking) ou ≥ 4,2 (Google), com fonte. -->
+
+    <!-- 10. Localização e contato -->
+    <section class="hm-secao hm-secao--superficie" id="contato" aria-labelledby="titulo-contato">
+      <div class="hm-wrap">
+        <div class="hm-secao__cabeca">
+          <p class="hm-rotulo">Localização</p>
+          <h2 class="hm-titulo-secao" id="titulo-contato">Como chegar e falar com a gente</h2>
+        </div>
+        <div class="hm-local">
+          <div class="hm-mapa">
+            <iframe title="Mapa do Hotel Santa Maria em Bacabal" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Rua%20Magalh%C3%A3es%20de%20Almeida%2C%20319%2C%20Bacabal%20MA&z=16&output=embed"></iframe>
+            <ul class="hm-distancias">
+              <li><span>Praça da Bíblia</span><span>1,8 km</span></li>
+              <li><span>Igreja Santa Teresinha</span><span>3,2 km</span></li>
+            </ul>
+          </div>
+          <div class="hm-contato">
+            <h3>Hotel Santa Maria</h3>
+            <dl>
+              <div><dt>Endereço</dt><dd>Rua Magalhães de Almeida, 319 · Centro<br>Bacabal – MA · 65700-000</dd></div>
+              <div><dt>WhatsApp</dt><dd><a href="https://wa.me/5599981289074" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." target="_blank" rel="noopener">(99) 98128-9074</a></dd></div>
+              <div><dt>Telefone</dt><dd><a href="tel:+559936211076">(99) 3621-1076</a></dd></div>
+              <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/hotelsantamariabacabal/" target="_blank" rel="noopener">@hotelsantamariabacabal</a></dd></div>
+            </dl>
+            <a class="hm-btn hm-btn--whatsapp hm-btn--bloco" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener">
+              <svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>Falar no WhatsApp
+            </a>
+            <a class="hm-btn hm-btn--claro hm-btn--bloco" href="https://maps.app.goo.gl/KEkRCBB62VtgWctZ7" target="_blank" rel="noopener">
+              <svg class="hm-icone" aria-hidden="true"><use href="#i-pino"/></svg>Abrir no Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. Rodapé -->
+  <div class="hm-wrap">
+    <footer class="hm-rodape">
+      <div>
+        <strong>Hotel Santa Maria</strong>
+        <p>Rua Magalhães de Almeida, 319 · Centro · Bacabal – MA · 65700-000</p>
+        <p><a href="tel:+559936211076">(99) 3621-1076</a> · <a href="https://wa.me/5599981289074" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." target="_blank" rel="noopener">WhatsApp (99) 98128-9074</a></p>
+      </div>
+      <div>
+        <p>Informações atualizadas em novembro de 2026.</p>
+        <p>Site por Integra Digital</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Barra fixa do celular -->
+  <nav class="hm-barra" aria-label="Reservar">
+    <a class="hm-btn hm-btn--whatsapp" data-wa="Olá! Gostaria de consultar disponibilidade no Hotel Santa Maria." href="https://wa.me/5599981289074" target="_blank" rel="noopener">
+      <svg class="hm-icone" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp
+    </a>
+    <a class="hm-btn hm-btn--linha" href="tel:+559936211076">
+      <svg class="hm-icone" aria-hidden="true"><use href="#i-telefone"/></svg>Ligar
+    </a>
+  </nav>
+
+  <script>
+    const HOTEL = { nome: "Hotel Santa Maria", whatsapp: "5599981289074" };
+    const wa = (msg) => "https://wa.me/" + HOTEL.whatsapp + "?text=" + encodeURIComponent(msg);
+
+    // Cada botão de WhatsApp já abre com a mensagem certa (data-wa)
+    document.querySelectorAll("[data-wa]").forEach((a) => { a.href = wa(a.dataset.wa); });
+
+    // Consulta por datas
+    const form = document.getElementById("consulta");
+    const hoje = new Date().toISOString().slice(0, 10);
+    form.entrada.min = hoje; form.saida.min = hoje;
+    form.entrada.addEventListener("change", () => { form.saida.min = form.entrada.value; });
+    const br = (d) => d.split("-").reverse().join("/");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const msg = `Olá! Gostaria de consultar disponibilidade no ${HOTEL.nome}.\nEntrada: ${br(form.entrada.value)}\nSaída: ${br(form.saida.value)}\nQuarto: ${form.quarto.value}`;
+      window.open(wa(msg), "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
